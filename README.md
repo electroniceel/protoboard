@@ -42,7 +42,7 @@ that it's easiest for you to order the protoboards there for yourself.
 I ordered these boards from [Elecrow](https://www.elecrow.com/) and [JLCPCB/EasyEDA](https://jlcpcb.com/), 
 they both turned out fine and ordering was smooth.
 
-Finished gerber zips ready for ordering can be found in the "gerber" directory.
+Finished gerber zips ready for ordering can be found in the ["gerber" directory](https://github.com/electroniceel/protoboard/tree/master/gerber).
 
 If you prefer another layout, see below.
 
@@ -51,6 +51,7 @@ Ordering options
 
 * Color doesn't matter as there is next to no soldermask on the boards
 * I found 1.2mm thickness a good compromise between rigidity and ease of cutting
+* But I'd go down to 1mm thickness if you prefer one big board without slots and want to cut it for each project to fit
 
 Making your own layout
 ----------------------
@@ -68,4 +69,4 @@ License
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-Please link to [http://git.io/vNUDX] for attribution.
+Please link to http://git.io/vNUDX for attribution.
