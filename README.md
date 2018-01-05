@@ -62,6 +62,25 @@ Making your own layout
 * Take the base pattern and copy it as much as you like
 * Draw the pcb edges (and maybe routed slots) around
 
+Soldering tips
+--------------
+
+Populating this protoboard needs obviously a bit more care than regular protoboard. Here are
+some tips to get you started.
+
+Use a smaller soldering tip than usual, I prefer a 1.2mm chisel type (JBC C245-906).
+
+Reduce the soldering temperature to drag traces. I prefer 295°C for Sn60Pb40 solder
+with my JBC station, other stations may need it slightly hotter.
+
+The lower temperature makes the solder flow less liquid and so it is a bit easier to control where
+it should flow and where not. So you can drag the solder blobs around a bit. If the solder doesn't
+want to make the connection you need, take the tip away and let the spot cool for about 5 seconds. Then
+try again.
+
+This needs a bit of getting used to as it is completely different than populating boards with pads etched
+to match the circuit where you usually want heat transfer as fast and even as possible.
+
 License
 -------
 ![CC-BY](https://licensebuttons.net/l/by/4.0/88x31.png)
