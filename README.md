@@ -46,7 +46,7 @@ Finished gerber zips ready for ordering can be found in the ["gerber" directory]
 
 If you prefer another layout, see below.
 
-Ordering options
+Production options
 ----------------
 
 * Color doesn't matter as there is next to no soldermask on the boards
@@ -56,12 +56,11 @@ Ordering options
 Making your own layout
 ----------------------
 
-* All neccessary KiCAD source files are provided
+* All neccessary KiCAD source files are provided in the ["kicad" directory](https://github.com/electroniceel/protoboard/tree/master/kicad)
 * Open the layout in pcbnew
-* Set the raster to 2.54mm
+* Set the grid to 2.54mm
 * Take the base pattern and copy it as much as you like
 * Draw the pcb edges (and maybe routed slots) around
-
 
 License
 -------
