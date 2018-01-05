@@ -1,0 +1,4 @@
+*.bak
+*-bak
+out/*
+output/*
