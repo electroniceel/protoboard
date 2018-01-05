@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 58.665713 39.645 153.766191 163.926191)
+    (area 136.165 39.645 153.766191 54.706191)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -13,6 +13,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "protoboard base pattern")
+    (comment 1 "CC-BY 4.0")
+    (comment 2 "See http://git.io/vNUDX")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
