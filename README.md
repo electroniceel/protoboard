@@ -1,8 +1,7 @@
 Advanced protoboard layout with 1.27mm pitch for smd parts
 ==========================================================
 
-<img src="https://github.com/electroniceel/protoboard/raw/master/photos/sample1.jpg" width=350 alt="Sample 1" style="float: left;">
-<img src="https://github.com/electroniceel/protoboard/raw/master/photos/sample2.jpg" width=350 alt="Sample 2" style="float: right;">
+| <img src="https://github.com/electroniceel/protoboard/raw/master/photos/sample1.jpg" width=350 alt="Sample 1"> | <img src="https://github.com/electroniceel/protoboard/raw/master/photos/sample2.jpg" width=350 alt="Sample 2"> |
 
 Main Features
 -------------
