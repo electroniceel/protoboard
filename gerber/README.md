@@ -21,6 +21,10 @@ protoboard-6x4-breakout.zip
 * 4 adapters for TSSOP-14
 * 4 adapters for TSSOP-16
 
+I got the feedback from a user that JLCPCB/Easyeda refused to manufacture this design because the
+SC-70 adapters are too small for their half-cut hole process. So either remove the SC-70 adapters
+in KiCAD or a gerber editor or order this design at another manufacturer.
+
 <img src="https://github.com/electroniceel/protoboard/raw/master/photos/protoboard-6x4-breakout.jpg" width=400>
 
 protoboard-10x5.zip
