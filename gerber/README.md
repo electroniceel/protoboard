@@ -25,7 +25,9 @@ I got the feedback from a user that JLCPCB/Easyeda refused to manufacture this d
 half-cut holes in the breakout adapters.
 
 I don't know yet if they always do that or if they do it just sometimes. Please
-give feedback, either at https://github.com/electroniceel/protoboard/issues/2 or
+give feedback, either at
+https://github.com/electroniceel/protoboard/issues/2
+or
 http://www.eevblog.com/forum/manufacture/improved-protoboardperfboard-for-direct-soic-mounting/
 
 protoboard-10x5.zip
