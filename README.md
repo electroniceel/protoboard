@@ -62,7 +62,7 @@ Making your own layout
 
 * All neccessary KiCAD source files are provided in the ["kicad" directory](https://github.com/electroniceel/protoboard/tree/master/kicad)
 * Open the layout in pcbnew
-* Set the grid to 2.54mm
+* Set the grid to 1.27mm
 * Take the base pattern and copy it as much as you like
 * Draw the pcb edges (and maybe routed slots) around
 
