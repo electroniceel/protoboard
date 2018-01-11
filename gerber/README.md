@@ -37,3 +37,9 @@ protoboard-10x5.zip
 * Roughly sized 10x5cm each
 
 <img src="https://github.com/electroniceel/protoboard/raw/master/photos/protoboard-10x5.jpg" width=400>
+
+protoboard-10x10.zip
+-------------------
+
+* one large protoboard in 10x10cm, no slots
+* No photo as I haven't received pcbs of this design yet
