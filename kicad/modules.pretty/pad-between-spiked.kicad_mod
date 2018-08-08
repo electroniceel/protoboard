@@ -1,4 +1,4 @@
-(module pad-between-spiked (layer F.Cu) (tedit 59D400F1)
+(module pad-between-spiked (layer F.Cu) (tedit 5B6B1D89)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference REF** (at 0 -5.1) (layer F.SilkS) hide
@@ -7,14 +7,15 @@
   (fp_text value pad-between (at 0 -3.1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 smd trapezoid (at 0.25 0.44 315) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at -0.25 0.4 225) (size 0.2828 0.2828) (rect_delta 0 0.2827 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at -0.25 -0.4 315) (size 0.2828 0.2828) (rect_delta 0 0.2827 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at 0.25 0.4 135) (size 0.2828 0.2828) (rect_delta 0 0.2827 ) (layers *.Cu *.Mask))
-  (pad 1 smd rect (at 0 -0.06) (size 0.7 0.85) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at 0.25 -0.4 45) (size 0.2828 0.2828) (rect_delta 0 0.2827 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at 0 -0.65) (size 0.35 0.35) (rect_delta 0 0.3499 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at -0.26 0.44 45) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at 0 -0.06) (size 0.7 0.85) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.55 -0.44) (xy -0.325 -0.44) (xy 0 -0.765) (xy 0.325 -0.44) (xy 0.55 -0.44)
+         (xy 0.35 -0.24) (xy 0.35 0.36) (xy 0.55 0.56) (xy 0.338 0.56) (xy 0.338 0.763)
+         (xy 0 0.425) (xy -0.01 0.425) (xy -0.348 0.763) (xy -0.348 0.56) (xy -0.55 0.56)
+         (xy -0.35 0.36) (xy -0.35 -0.24)) (width 0.001))
+    ))
   (model Pin_Headers.3dshapes/Pin_Header_Straight_1x01.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -1,15 +1,16 @@
-(module center-pad-spikes (layer F.Cu) (tedit 59D401F2)
+(module center-pad-spikes (layer F.Cu) (tedit 5B6B1C50)
   (fp_text reference REF** (at 0 -1.4) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value center-pad (at 0.1 -2.7) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 smd trapezoid (at 0 -0.47) (size 0.35 0.35) (rect_delta 0 0.3499 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at 0.26 0.26 315) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at 0.26 0.26 135) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers *.Cu *.Mask))
-  (pad 1 smd rect (at -0.06 -0.085) (size 0.47 0.52) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at -0.47 0 90) (size 0.35 0.35) (rect_delta 0 0.3499 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at 0.26 -0.26 45) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers *.Cu *.Mask))
-  (pad 1 smd trapezoid (at -0.26 0.26 45) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers *.Cu *.Mask))
+  (pad 1 smd custom (at -0.06 -0.085) (size 0.47 0.52) (layers *.Cu *.Mask)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.585 0.085) (xy 0.06 -0.56) (xy 0.357 -0.263) (xy 0.583 -0.263) (xy 0.235 0.085)
+         (xy 0.582 0.432) (xy 0.407 0.432) (xy 0.407 0.607) (xy 0.06 0.26) (xy -0.288 0.608)
+         (xy -0.288 0.382)) (width 0.001))
+    ))
 )
