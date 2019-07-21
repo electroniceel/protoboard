@@ -1,0 +1,15 @@
+(module center-pad-spikes-oneside (layer F.Cu) (tedit 59D401F2)
+  (fp_text reference REF** (at 0 -1.4) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value center-pad (at 0.1 -2.7) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd trapezoid (at 0 -0.47) (size 0.35 0.35) (rect_delta 0 0.3499 ) (layers F.Cu F.Mask))
+  (pad 1 smd trapezoid (at 0.26 0.26 315) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers F.Cu F.Mask))
+  (pad 1 smd trapezoid (at 0.26 0.26 135) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers F.Cu F.Mask))
+  (pad 1 smd rect (at -0.06 -0.085) (size 0.47 0.52) (layers F.Cu F.Mask))
+  (pad 1 smd trapezoid (at -0.47 0 90) (size 0.35 0.35) (rect_delta 0 0.3499 ) (layers F.Cu F.Mask))
+  (pad 1 smd trapezoid (at 0.26 -0.26 45) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers F.Cu F.Mask))
+  (pad 1 smd trapezoid (at -0.26 0.26 45) (size 0.2475 0.2475) (rect_delta 0 0.2474 ) (layers F.Cu F.Mask))
+)
