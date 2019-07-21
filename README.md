@@ -37,6 +37,23 @@ Adapters to 1.27mm pitch smd are provided for these packages:
 * TSSOP-16
 * SOT-363/SC-70
 
+Bottom variants
+-----------
+
+My original design uses the 1.27mm pattern on both sides. For some analog and RF circuits I wanted a better GND plane.
+So I made a variant with a near-solid GND plane on the bottom side.
+
+* Near solid copper plane on the bottom side
+* Plated-through holes in 2.54mm raster
+    * The holes have a minimal annular ring of 0.15mm
+    * Around the ring is another 0.15mm space
+    * After that the GND plane begins
+* A hole just soldered on the top is not automatically connected to the GND plane because of the 0.15mm space
+* Just put a blob of solder on the bottom to connect a hole to the GND plane
+
+| <img src="https://github.com/electroniceel/protoboard/raw/master/photos/gndplane.jpg" width=350 alt="GND plane"> | <img src="https://github.com/electroniceel/protoboard/raw/master/photos/gndplane-detail.jpg" width=350 alt="GND plane detail"> |
+
+
 How to get?
 -----------
 
