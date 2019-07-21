@@ -49,11 +49,11 @@ protoboard-10x5-gndplane.zip
 
 * 2 protoboards per pcb, separated by milled slots
 * Roughly sized 10x5cm each
-* variant with gnd plane
+* variant with gnd plane (see https://github.com/electroniceel/protoboard#bottom-variants-ground-plane-option)
 
 protoboard-5x3-gndplane.zip
 ------------------
 
 * 6 small protoboards per pcb, separated by milled slots
 * Roughly sized 5x3cm each
-* variant with gnd plane
+* variant with gnd plane (see https://github.com/electroniceel/protoboard#bottom-variants-ground-plane-option)
