@@ -60,8 +60,12 @@ How to get?
 Chinese pcb manufacturing services became so cheap even for small quantities
 that it's easiest for you to order the protoboards there for yourself.
 
-I ordered these boards from [Elecrow](https://www.elecrow.com/) and [JLCPCB/EasyEDA](https://jlcpcb.com/), 
-they both turned out fine and ordering was smooth.
+When I began designing these boards, I ordered samples from Elecrow and JLCPCB and both came out fine. But
+when ordering some new boards, JLCPCB now declined to manufacture them with (cheap) HASL surface finish and only
+wanted to manufacture them if I switched to (more expensive) ENIG. They explained that the HASL process might leave small
+solder blobs on the surface creating shorts. Elecrow continued to manufacture them without any issues.
+
+So I recommend to order the boards from [Elecrow](http://www.elecrow.com/referral-program/MjA0ODlqMnQ=/).
 
 Finished gerber zips ready for ordering can be found in the ["gerber" directory](https://github.com/electroniceel/protoboard/tree/master/gerber).
 
