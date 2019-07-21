@@ -37,7 +37,7 @@ Adapters to 1.27mm pitch smd are provided for these packages:
 * TSSOP-16
 * SOT-363/SC-70
 
-Bottom variants
+Bottom variants (Ground plane option)
 -----------
 
 My original design uses the 1.27mm pattern on both sides. For some analog and RF circuits I wanted a better GND plane.
@@ -82,6 +82,11 @@ Making your own layout
 * Set the grid to 1.27mm
 * Take the base pattern and copy it as much as you like
 * Draw the pcb edges (and maybe routed slots) around
+
+For the variant with GND plane on the bottom:
+
+* Use the "-oneside" footprints on the top side
+* Use "tht-0.8-thin-bottom" on the bottom side
 
 Soldering tips
 --------------
