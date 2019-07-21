@@ -43,3 +43,17 @@ protoboard-10x10.zip
 
 * one large protoboard in 10x10cm, no slots
 * No photo as I haven't received pcbs of this design yet
+
+protoboard-10x5-gndplane.zip
+-------------------
+
+* 2 protoboards per pcb, separated by milled slots
+* Roughly sized 10x5cm each
+* variant with gnd plane
+
+protoboard-5x3-gndplane.zip
+------------------
+
+* 6 small protoboards per pcb, separated by milled slots
+* Roughly sized 5x3cm each
+* variant with gnd plane
