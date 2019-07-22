@@ -21,6 +21,8 @@ protoboard-6x4-breakout.zip
 * 4 adapters for TSSOP-14
 * 4 adapters for TSSOP-16
 
+<img src="https://github.com/electroniceel/protoboard/raw/master/photos/protoboard-6x4-breakout.jpg" width=400>
+
 protoboard-10x5.zip
 -------------------
 
