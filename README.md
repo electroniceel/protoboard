@@ -111,6 +111,15 @@ try again.
 This needs a bit of getting used to as it is completely different than populating boards with pads etched
 to match the circuit where you usually want heat transfer as fast and even as possible.
 
+Similar projects
+----------------
+
+This layout might not fit everyones needs. Here are some other protoboard designs with a grid of 1.27mm or lower:
+
+* [Black Mesa Labs BML 50MIL](https://blackmesalabs.wordpress.com/2017/12/03/bml-50mil-0-050-proto-boards-for-rapid-surface-mount-prototyping/), free to download sources & gerbers
+* [Busboard 50x50mil SMTpads](https://www.busboard.com/surfacemountpcbs), commercial
+* [FYD Open Source Hardware](https://www.aliexpress.com/item/32774106087.html), commercial
+
 License
 -------
 ![CC-BY](https://licensebuttons.net/l/by/4.0/88x31.png)
